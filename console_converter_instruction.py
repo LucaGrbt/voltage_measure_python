@@ -14,9 +14,13 @@ cd /d <absolute path of directory with .ui file>
 
 4) type in:
 
-with PySide2
+(with PySide2:)
 
 pyside2-uic <filename.ui> -o <filename.py>
+
+(with PySide6:)
+
+pyside6-uic <filename.ui> -o <filename.py>
 
 where the filename of the .py file is the wished filename for the resulting converted .py-GUI
 
