@@ -16,3 +16,15 @@ Like I said I'm still pretty new to Python, so if you find some interesting bett
 To make the GUI running fluently while executing all the different tasks at once, I had to make use of PyQt's "QThread" classes. Thanks to those, the GUI can run everything at the same time without freezing to wait for every single task to end and step to the next one. Using multiple threads is indispensable here.
 
 Any other details are hopefully mostly easy to understand by the comments in the codes.
+
+Used modules/apps for writing/executing the app:
+
+pyqt5==5.12.3
+spyder==5.1.5
+pqtgraph
+numpy
+pyserial (imported with serial)
+matplotlib
++ self created GUIs as well as the self created live plot widget
+datetime
+xlsxwriter
