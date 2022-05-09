@@ -19,12 +19,20 @@ Any other details are hopefully mostly easy to understand by the comments in the
 
 Used modules/apps for writing/executing the app:
 
-pyqt5==5.12.3 \n
-spyder==5.1.5 \n
-pqtgraph \n
+pyqt5==5.12.3
+
+spyder==5.1.5
+
+pqtgraph
+
 numpy
+
 pyserial (imported with serial)
+
 matplotlib
-+ self created GUIs as well as the self created live plot widget
+
+self created GUIs as well as the self created live plot widget
+
 datetime
+
 xlsxwriter
