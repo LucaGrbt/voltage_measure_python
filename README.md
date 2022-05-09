@@ -13,7 +13,8 @@ I hope that if you struggled with the same problem, this project might save you 
 
 Like I said I'm still pretty new to Python, so if you find some interesting better solutions to set this up, I'd be very glad if you leave a comment or so, as I'm very interested what improvements are possible here :)
 
-To make the GUI running fluently while executing all the different tasks at once, I had to make use of PyQt's "QThread" classes. Thanks to those, the GUI can run everything at the same time without freezing to wait for every single task to end and step to the next one. Using multiple threads is indispensable here.
+To make the GUI running fluently while executing all the different tasks at once, I had to make use of PyQt's "QThread" classes. Thanks to those, the GUI can run everything at the same time without freezing to wait for every single task to end and step to the next one. Using multiple threads is indispensable here. Please note that QThread is a low-level API for multithreading. For high-level multi threading QtConcurrent is also available inside the possibilities of Qt. In the next project I want to make use of it. Furthermore, this program sets frequencies by time.sleep() which will also rather cause problems hile running the program, at least it takes a lot of the programs speed I guess. QTimer is provided by QT to solve those issues in a more elegant way, but I didn't have enough time yet, to integrate it.
+
 
 Any other details are hopefully mostly easy to understand by the comments in the codes.
 
