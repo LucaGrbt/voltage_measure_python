@@ -23,7 +23,7 @@ pyqt5==5.12.3
 
 spyder==5.1.5
 
-pqtgraph
+pyqtgraph
 
 numpy
 
