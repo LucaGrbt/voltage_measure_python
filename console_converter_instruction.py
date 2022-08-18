@@ -4,7 +4,7 @@ Created on Thu Mar 10 09:45:50 2022
 
 @author: LucaGraebenteich
 
-1) open console (anaconda prompt) of used virtual environment 
+1) open console (e.g. anaconda prompt) of used virtual environment 
 
 2) pyside 2 and/or 6 has to be installed in the used virtual env!
 
